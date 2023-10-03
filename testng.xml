@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Raveendra/Downloads/demo/SampleTestNGandCucumberWrapper">
+        <classes>
+            <class name="TestNG.SanityTesting">
+                <methods>
+                    <include name="loginPage"/>
+                    <include name="logincheck"/>
+                    <include name="addTocart"/>
+                    <include name="allItemsPage"/>
+                    <include name="navigatToabout"/>
+                    <include name="resetAll"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
