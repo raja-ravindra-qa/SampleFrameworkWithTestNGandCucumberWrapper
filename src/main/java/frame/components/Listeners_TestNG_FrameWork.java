@@ -128,5 +128,6 @@ public class Listeners_TestNG_FrameWork extends BaseClass implements ITestListen
     @Override
     public void onFinish(ITestContext context) {
         ITestListener.super.onFinish(context);
+        ext.flush();
     }
 }
