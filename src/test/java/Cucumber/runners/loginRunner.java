@@ -12,8 +12,8 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(features = "src/test/java/Cucumber/features",
         glue = {"Cucumber.stepdef"},
-        plugin = {"pretty", "html:target/cucumber-reports.html", "json:target/cucumber.json"},
-        monochrome = true,
+        plugin = {"pretty", "html:src/output/reports/Cucumber/cucumber-reports.html", "json:src/output/reports/Cucumber/cucumber.json"},
+        monochrome = false,
         publish = true)
 
     public class loginRunner extends AbstractTestNGCucumberTests {

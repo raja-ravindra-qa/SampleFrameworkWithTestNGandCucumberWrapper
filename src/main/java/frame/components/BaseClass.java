@@ -83,6 +83,7 @@ public class BaseClass extends CommonUtilities {
         driver = initializeDriver();
         welcome = new WelcomePage(driver);
         welcome.launching();
+        System.out.println("Before class is executed");
         return welcome;
 
     }
