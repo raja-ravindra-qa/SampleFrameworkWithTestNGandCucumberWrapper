@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="frame.components.Listeners_TestNG_FrameWork"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/Raveendra/Downloads/demo/SampleTestNGandCucumberWrapper(failed)" verbose="10">
+    <classes>
+      <class name="TestNG.SanityTest">
+        <methods>
+          <include name="intentionalFail"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNG.SanityTest -->
+      <class name="Cucumber.runners.loginRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Cucumber.runners.loginRunner -->
+    </classes>
+  </test> <!-- C:/Users/Raveendra/Downloads/demo/SampleTestNGandCucumberWrapper(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

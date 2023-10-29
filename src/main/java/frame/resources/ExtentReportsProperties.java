@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class ExtentReportsProperties {
 
     public static ExtentReports reportsSetup(){
-        String path= System.getProperty("user.dir")+"/src/output/reports/TestNG/TestReports.html";
+        String path= System.getProperty("user.dir")+"//src//output//reports//TestNG//TestReports.html";
         System.out.println(path);
         ExtentSparkReporter sparkReporter=new ExtentSparkReporter(path);
         sparkReporter.config().setReportName("Sample Project With Selenium, TestNG and Cucumber Wrapper ");
