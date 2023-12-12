@@ -5,6 +5,12 @@ Feature: Login Functionality
     When Click on login button
     Then The "message" will be displayed
 
+  Scenario: try to do it again
+    Given login with the "Id" and "password"
+    When Click on login button
+    Then The "message" will be displayed
+    And verify failure
+
   Scenario Outline: Login Functionality Testing
     Given login with the "<Id>" and "<password>"
     When Click on login button

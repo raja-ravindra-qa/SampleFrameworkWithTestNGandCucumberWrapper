@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-29T10:50:22 IST" name="All Test Suite" finished-at="2023-10-29T10:52:55 IST" duration-ms="152881">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.runners.loginRunner@710c2b53]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-29T10:50:22 IST" name="C:/Users/Raveendra/Downloads/demo/SampleTestNGandCucumberWrapper" finished-at="2023-10-29T10:52:55 IST" duration-ms="152881">
+      <class name="TestNG.SanityTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:05 IST" name="launchApplication" finished-at="2023-10-29T10:51:12 IST" duration-ms="6207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginPage()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:12 IST" name="loginPage" finished-at="2023-10-29T10:51:12 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:12 IST" name="tearDown" finished-at="2023-10-29T10:51:12 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:12 IST" name="launchApplication" finished-at="2023-10-29T10:51:15 IST" duration-ms="3092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="logincheck()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:15 IST" name="logincheck" finished-at="2023-10-29T10:51:16 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:16 IST" name="tearDown" finished-at="2023-10-29T10:51:16 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:16 IST" name="launchApplication" finished-at="2023-10-29T10:51:19 IST" duration-ms="3623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addTocart()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:19 IST" name="addTocart" finished-at="2023-10-29T10:51:25 IST" duration-ms="5980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTocart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:25 IST" name="tearDown" finished-at="2023-10-29T10:51:26 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:26 IST" name="launchApplication" finished-at="2023-10-29T10:51:33 IST" duration-ms="7217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="allItemsPage()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:33 IST" name="allItemsPage" finished-at="2023-10-29T10:51:40 IST" duration-ms="7080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allItemsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:40 IST" name="tearDown" finished-at="2023-10-29T10:51:40 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:40 IST" name="launchApplication" finished-at="2023-10-29T10:51:51 IST" duration-ms="10485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="navigatToabout()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:51:51 IST" name="navigatToabout" finished-at="2023-10-29T10:52:30 IST" duration-ms="39319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatToabout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:52:30 IST" name="tearDown" finished-at="2023-10-29T10:52:31 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:52:31 IST" name="launchApplication" finished-at="2023-10-29T10:52:36 IST" duration-ms="4866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="resetAll()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:52:36 IST" name="resetAll" finished-at="2023-10-29T10:52:40 IST" duration-ms="3591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAll -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:52:40 IST" name="tearDown" finished-at="2023-10-29T10:52:40 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:52:40 IST" name="launchApplication" finished-at="2023-10-29T10:52:43 IST" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="intentionalFail()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:52:43 IST" name="intentionalFail" finished-at="2023-10-29T10:52:54 IST" duration-ms="10496" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f4ab5959647063e3207fd1175c3ac2a, clickElement {id=04941A41780B41276EF547430B044B0B_element_19}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\RAVEEN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53062}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53062/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9f4ab5959647063e3207fd1175c3ac2a)] -> xpath: //a[contains(text(), 'Reset App State')]]
+Session ID: 9f4ab5959647063e3207fd1175c3ac2a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f4ab5959647063e3207fd1175c3ac2a, clickElement {id=04941A41780B41276EF547430B044B0B_element_19}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\RAVEEN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53062}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53062/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9f4ab5959647063e3207fd1175c3ac2a)] -> xpath: //a[contains(text(), 'Reset App State')]]
+Session ID: 9f4ab5959647063e3207fd1175c3ac2a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at frame.pageobjects.MenuBurgerPage.navigateToresetAppState(MenuBurgerPage.java:40)
+at TestNG.SanityTest.intentionalFail(SanityTest.java:101)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intentionalFail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.SanityTest@6440112d]" started-at="2023-10-29T10:52:54 IST" name="tearDown" finished-at="2023-10-29T10:52:55 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.SanityTest -->
+      <class name="Cucumber.runners.loginRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.runners.loginRunner@710c2b53]" started-at="2023-10-29T10:50:22 IST" name="setUpClass" finished-at="2023-10-29T10:50:23 IST" duration-ms="509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ba226cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.runners.loginRunner@710c2b53]" started-at="2023-10-29T10:50:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-29T10:50:34 IST" duration-ms="10866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["try to do it"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.runners.loginRunner@710c2b53]" started-at="2023-10-29T10:50:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-29T10:50:51 IST" duration-ms="17560" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["try to do it again"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b04268c916af4a36ec56139eef92ea49, clickElement {id=D1409A040A28C10702407EB3D38B69CB_element_15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\RAVEEN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52697/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b04268c916af4a36ec56139eef92ea49)] -> xpath: //a[contains(text(), 'Reset App State')]]
+Session ID: b04268c916af4a36ec56139eef92ea49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b04268c916af4a36ec56139eef92ea49, clickElement {id=D1409A040A28C10702407EB3D38B69CB_element_15}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\RAVEEN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52697}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52697/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b04268c916af4a36ec56139eef92ea49)] -> xpath: //a[contains(text(), 'Reset App State')]]
+Session ID: b04268c916af4a36ec56139eef92ea49
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+at frame.pageobjects.MenuBurgerPage.navigateToresetAppState(MenuBurgerPage.java:40)
+at Cucumber.stepdef.MyStepdef.verify_failure(MyStepdef.java:131)
+at ✽.verify failure(file:///C:/Users/Raveendra/Downloads/demo/SampleTestNGandCucumberWrapper/src/test/java/Cucumber/features/login_feature.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.runners.loginRunner@710c2b53]" started-at="2023-10-29T10:50:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-29T10:50:55 IST" duration-ms="3846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.runners.loginRunner@710c2b53]" started-at="2023-10-29T10:50:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-29T10:50:58 IST" duration-ms="3229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.runners.loginRunner@710c2b53]" started-at="2023-10-29T10:50:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-10-29T10:51:02 IST" duration-ms="3726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber.runners.loginRunner@710c2b53]" started-at="2023-10-29T10:51:02 IST" name="tearDownClass" finished-at="2023-10-29T10:51:05 IST" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber.runners.loginRunner -->
+    </test> <!-- C:/Users/Raveendra/Downloads/demo/SampleTestNGandCucumberWrapper -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

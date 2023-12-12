@@ -9,7 +9,11 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import java.awt.*;
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.util.Base64;
 
 public class Listeners_TestNG_FrameWork extends BaseClass implements ITestListener {
     /**
@@ -19,6 +23,7 @@ public class Listeners_TestNG_FrameWork extends BaseClass implements ITestListen
      * @param result the partially filled <code>ITestResult</code>
      * @see ITestResult#STARTED
      */
+
     WebDriver driver;
     ExtentTest test;
     ExtentReports ext=ExtentReportsProperties.reportsSetup();
@@ -49,27 +54,46 @@ public class Listeners_TestNG_FrameWork extends BaseClass implements ITestListen
      */
     @Override
     public void onTestFailure(ITestResult result) {
-      extentTestThreadLocal.get().log(Status.FAIL, result.getThrowable());
+
+        extentTestThreadLocal.get().log(Status.FAIL, result.getThrowable());
+//        String filePath= null;
+//        try {
+//            filePath = roboShot(result.getMethod().getMethodName());
+//        } catch (IOException e) {
+//
+//
+//            throw new RuntimeException(e);
+//        } catch (AWTException e) {
+//            throw new RuntimeException(e);
+//        }
+//        byte[] byteString=null;
+//        try {
+//            byteString= Files.readAllBytes(new File(filePath).toPath());
+//
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//        String base64= Base64.getEncoder().encodeToString(byteString);
+//        extentTestThreadLocal.get().addScreenCaptureFromBase64String(base64);
+//        extentTestThreadLocal.get().addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
+        String filePath = null;
         try {
-           driver = (WebDriver) result.getTestClass().getRealClass().getField("driver")
-                    .get(result.getInstance());
+           driver = (WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
+            filePath = getScreenshot(result.getMethod().getMethodName(),driver);
+            byte[] byteString=null;
+        try {
+            byteString= Files.readAllBytes(new File(filePath).toPath());
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        String base64= Base64.getEncoder().encodeToString(byteString);
+        extentTestThreadLocal.get().addScreenCaptureFromBase64String(base64);
 
         } catch (Exception e1) {
             // TODO Auto-generated catch block
             e1.printStackTrace();
         }
-
-        String filePath = null;
-        try {
-
-            filePath = getScreenshot(result.getMethod().getMethodName(),driver);
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        extentTestThreadLocal.get().addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
-
-
         //Screenshot, Attach to report
 
 
@@ -127,7 +151,6 @@ public class Listeners_TestNG_FrameWork extends BaseClass implements ITestListen
      */
     @Override
     public void onFinish(ITestContext context) {
-        ITestListener.super.onFinish(context);
-        ext.flush();
+            ext.flush();
     }
 }

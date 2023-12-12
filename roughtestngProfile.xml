@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="10" >
+<!--    parallel="classes"  thread-count="4"-->
+    <listeners><listener class-name="frame.components.Listeners_TestNG_FrameWork"/></listeners>
+    <test  preserve-order="true" name="C:/Users/Raveendra/Downloads/demo/SampleTestNGandCucumberWrapper">
+        <classes>
+            <class  name="Cucumber.runners.loginRunner"/>
+
+        </classes>
+    </test>
+
+</suite>

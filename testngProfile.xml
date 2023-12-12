@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" verbose="10" parallel="classes"  thread-count="1">
+<suite name="All Test Suite" verbose="10" >
+<!--    parallel="classes"  thread-count="4"-->
     <listeners><listener class-name="frame.components.Listeners_TestNG_FrameWork"/></listeners>
     <test  preserve-order="true" name="C:/Users/Raveendra/Downloads/demo/SampleTestNGandCucumberWrapper">
         <classes>
-            <class  name="TestNG.SanityTesting">
+            <class  name="Cucumber.runners.loginRunner"/>
+            <class  name="TestNG.SanityTest">
                 <methods>
                     <include name="loginPage"/>
                     <include name="logincheck"/>
@@ -12,6 +14,7 @@
                     <include name="allItemsPage"/>
                     <include name="navigatToabout"/>
                     <include name="resetAll"/>
+                    <include name="intentionalFail"/>
                 </methods>
             </class>
             <class name="Cucumber.runners.loginRunner"/>
