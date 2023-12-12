@@ -2,6 +2,7 @@ package frame.components;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import frame.resources.ExtentReportsProperties;
 import org.openqa.selenium.WebDriver;
@@ -31,6 +32,7 @@ public class Listeners_TestNG_FrameWork extends BaseClass implements ITestListen
     @Override
     public void onTestStart(ITestResult result) {
         test=ext.createTest(result.getMethod().getMethodName());
+//        test=ext.createTest( result.getTestName());
         extentTestThreadLocal.set(test);
 
     }

@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class SanityTest extends BaseClass {
-    @Test
+    @Test(testName = "Login Page", description="jksdfksfj dfjikdjf dfjdsf sdfjklsd")
     public void loginPage() {
         welcome.launching();
     }
