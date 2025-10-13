@@ -53,8 +53,9 @@ public class BaseClass extends CommonUtilities {
 
 
         } else if (browserName.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver",
-                    "/Users/rahulshetty//documents//geckodriver");
+//            System.setProperty("webdriver.gecko.driver",
+//                    "/Users/rahulshetty//documents//geckodriver");
+            WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
             // Firefox
         } else if (browserName.equalsIgnoreCase("edge")) {
